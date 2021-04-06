@@ -1,7 +1,0 @@
-Result: 46.0
-Result: 108.0
-Result: 35.0
-Result: 634.0
-Syntax error on line
-Syntax error on line
-Result: 3.0

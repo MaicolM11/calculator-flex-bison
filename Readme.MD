@@ -1,0 +1,7 @@
+# CALCULATOR
+
+run  
+
+```
+make
+```
