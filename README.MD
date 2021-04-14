@@ -3,9 +3,9 @@ Calculdora que realiza operaciones de suma, resta, division y multiplicacion ten
 
 ## Compilar
 
-Primero se tiene que compilar los archivos, para esto se creó el archivo makefile que genera el ejecutable.
+Primero se tiene que compilar los archivos, para esto se creó el archivo makefile que genera el ejecutable, make normalmente es descargado con el compilador gcc.
 
-corra al mismo nivel del Makefile
+Corra al mismo nivel del Makefile
 
 ```
 make
@@ -34,3 +34,8 @@ Donde input.txt contiene las operaciones separadas por un salto de linea, no olv
 ## Resultado
 
 Tendra por consola el resultado de las operaciones que solicitó.
+
+## Autores
+
+- Yenny Alexandra Sanchez
+- Michael Alejandro Muñoz
