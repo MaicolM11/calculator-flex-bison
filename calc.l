@@ -3,7 +3,7 @@
 %}
 DIGITO [0-9]
 %%
-{DIGITO}+(\.{DIGITO}+)? {yylval.real=atof(yytext);  return(TKN_NUM);}
+{DIGITO}+(\.{DIGITO}+)? {yylval.real=atof(yytext);  return(TKN_NUM);}    // se parsea el valor de yytext a floatante
 \*           return TKN_MULT ; 
 \/           return TKN_DIV ; 
 \+           return TKN_MAS ; 
@@ -11,6 +11,6 @@ DIGITO [0-9]
 \(           return TKN_PAA ; 
 \)           return TKN_PAC ; 
 \n           return END;
-[\s\t]+     { }
-.           { printf("Error: Lexical error on line %d!\n", yylineno);};
+[ \t]+         { }
+.            return ERR;
 %%

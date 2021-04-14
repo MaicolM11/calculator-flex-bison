@@ -1,7 +1,0 @@
-# CALCULATOR
-
-run  
-
-```
-make
-```
