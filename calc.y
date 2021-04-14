@@ -46,11 +46,7 @@ void yyerror(char *s){
 }
 
 int main(int argc, char **argv) {
-	if (argc > 1) {
-		yyin = fopen(argv[1],"r");      // si hay argumentos cargue el archivo como
-	} else {
-        yyin = stdin;
-    }
+    yyin = (argc > 1) ? fopen(argv[1],"r") : stdin;  // si hay argumentos cargue el archivo como entrada
     yyparse();
     return 0;
 }
